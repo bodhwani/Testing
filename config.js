@@ -2,9 +2,6 @@ $(window).on('load',function () {
 
     "use strict";
 
-    /* *****************************************************************
-     * ENABLE SMOOTH SCROLL
-     * ************************************************************** */
 
     $('.btn-link,.nav-wrapper .main-nav li a,.nav-wrapper .side-nav li a').smoothScroll({offset: -50, speed: 1200});
 
